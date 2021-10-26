@@ -17,10 +17,6 @@ export class HelloWorldComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  setNome(event: any) {
-    this.nome = event.target.value;
-  }
-
   helloWorld() {
     this.helloWorldMessage = `Hello world, ${this.nome}!`;
   }
