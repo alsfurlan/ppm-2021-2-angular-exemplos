@@ -1,0 +1,19 @@
+:host {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+input {
+  padding: 1rem;
+  text-align: center;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  margin-top: 1rem;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.5rem;
+}
