@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { DataHoraComponent } from './data-hora/data-hora.component';
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    DataHoraComponent
+    DataHoraComponent,
+    ContadorComponent
   ],
   imports: [
     BrowserModule,
